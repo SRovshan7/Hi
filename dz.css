@@ -1,0 +1,32 @@
+.real {
+  color:purple;
+  size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: inline;
+  padding: 20px 40px;
+  margin-left: -4px;
+}
+li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+li:hover {
+  background-color: white;
+}
+div {
+  position: sticky;
+  top: 0px;
+  list-style: none;
+  display: flex;
+  background-color:purple;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
